@@ -3,8 +3,8 @@ class Test < Formula
   homepage "https://github.com/nenadalm/test"
 
   if OS.linux?
-    url "https://github.com/nenadalm/test/releases/download/v2021.06.23.2010/test-linux-amd64"
-    sha256 "0e186e8e2e12d605f2d8a4638b57298b53163336fcb576dfffa2e4a28656ae3f"
+    url "https://github.com/nenadalm/test/releases/download/v2021.08.07.1715/test-linux-amd64"
+    sha256 "030447c9d142fcb1de25cc3239363c41016be957e63ad82277bfb13c39d888f1"
   else
     raise "This OS is not supported."
   end
